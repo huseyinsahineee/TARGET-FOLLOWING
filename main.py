@@ -10,7 +10,8 @@ cap = cv2.VideoCapture(0)
 pygame.mixer.init()
 pygame.mixer.music.load('C:\\Users\\husey\\Desktop\\proje\\arama.mp3')
 pygame.mixer.music.play(-1)
-
+ 
+ 
 while True:
     ret, frame = cap.read()
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
